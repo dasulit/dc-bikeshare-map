@@ -1,0 +1,62 @@
+body,
+h1,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.tooltip {
+  font-family: 'SFMono-Regular', Consolas, Menlo, Courier, monospace;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+p {
+  line-height: 1.2em;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  margin: 10px 0 0 10px;
+  padding: 20px;
+  width: 350px;
+  border-radius: 3px;
+}
+
+.tooltip {
+  position: absolute;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.capital-bikeshare {
+  background: #ee3123;
+  width: 200px;
+}
+
+.jump {
+  background: #000;
+  width: 160px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}

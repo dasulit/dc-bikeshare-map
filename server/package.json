@@ -1,0 +1,16 @@
+{
+  "name": "dc-bikeshare-map-server",
+  "author": "Dana Sulit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}

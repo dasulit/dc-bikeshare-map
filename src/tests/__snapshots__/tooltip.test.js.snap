@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip renders null if no features provided 1`] = `""`;
+
+exports[`Tooltip renders with Capital Bikeshare properties 1`] = `
+<div
+  className="tooltip capital-bikeshare"
+>
+  <b>
+    Capital Bikeshare station
+  </b>
+  <div
+    className="margin-bottom-10"
+  >
+    Florida Ave & R St NW
+  </div>
+  <ul>
+    <li>
+      Available bikes: 
+      12
+    </li>
+    <li>
+      Available docks: 
+      3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Tooltip renders with JUMP properties 1`] = `
+<div
+  className="tooltip jump"
+>
+  <b>
+    JUMP Bike
+  </b>
+   
+  100%
+   battery
+</div>
+`;

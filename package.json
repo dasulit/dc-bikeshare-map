@@ -1,0 +1,46 @@
+{
+  "name": "dc-bikeshare-map",
+  "description": "A map of bikes available to rent from Capital Bikeshare and JUMP in the DC Metro area.",
+  "author": "Dana Sulit",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "mapbox-gl": "^1.8.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
+    "prettier": "1.19.1"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css}'",
+    "start": "concurrently \"node server/server.js\" \"react-scripts start\"",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000/",
+  "prettier": {
+    "singleQuote": true
+  }
+}
